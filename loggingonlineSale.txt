@@ -47,7 +47,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -55,11 +55,11 @@ Connection: keep-alive
     "status": "OK",
     "payload": {
         "approvalCode": "210251",
-        "field55Data": "91107B4C3C54808000000000000000000000",
-        "rrn": "115909200032",
+        "field55Data": "9110C937256B80C400000000000000000000",
+        "rrn": "115919200032",
         "responseCode": "00"
     },
-    "timestamp": "2021-06-08T04:22:57Z"
+    "timestamp": "2021-06-08T14:24:38Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -110,7 +110,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -118,7 +118,7 @@ Connection: close
     "errors": {
         "message": "APP VERSION NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:00Z"
+    "timestamp": "2021-06-08T14:24:43Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -169,7 +169,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -177,7 +177,7 @@ Connection: close
     "errors": {
         "message": "BATCH NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:00Z"
+    "timestamp": "2021-06-08T14:24:43Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -228,7 +228,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -236,7 +236,7 @@ Connection: close
     "errors": {
         "message": "INVOICE NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:00Z"
+    "timestamp": "2021-06-08T14:24:43Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -287,7 +287,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -295,7 +295,7 @@ Connection: close
     "errors": {
         "message": "MERCHANT IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:43Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -346,7 +346,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -354,7 +354,7 @@ Connection: close
     "errors": {
         "message": "MERCHANT DETAILS IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:43Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -405,7 +405,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -413,7 +413,7 @@ Connection: close
     "errors": {
         "message": "NII IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -464,7 +464,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -472,7 +472,7 @@ Connection: close
     "errors": {
         "message": "POS ENTRY MODE IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -523,7 +523,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -531,7 +531,7 @@ Connection: close
     "errors": {
         "message": "POS SERIAL NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -582,7 +582,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:43 GMT
 Connection: close
 
 {
@@ -590,7 +590,7 @@ Connection: close
     "errors": {
         "message": "PROCESSING CODE IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -641,7 +641,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:44 GMT
 Connection: close
 
 {
@@ -649,7 +649,7 @@ Connection: close
     "errors": {
         "message": "REQUEST ID IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -700,7 +700,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:44 GMT
 Connection: close
 
 {
@@ -708,7 +708,7 @@ Connection: close
     "errors": {
         "message": "STAN IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -759,7 +759,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:44 GMT
 Connection: close
 
 {
@@ -767,7 +767,7 @@ Connection: close
     "errors": {
         "message": "TERMINAL ID IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -818,7 +818,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:44 GMT
 Connection: close
 
 {
@@ -826,7 +826,7 @@ Connection: close
     "errors": {
         "message": "TRACK2 DATA IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -877,7 +877,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:44 GMT
 Connection: close
 
 {
@@ -885,7 +885,7 @@ Connection: close
     "errors": {
         "message": "AMOUNT IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -936,7 +936,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:00 GMT
+Date: Tue, 08 Jun 2021 14:24:44 GMT
 Connection: close
 
 {
@@ -944,7 +944,7 @@ Connection: close
     "errors": {
         "message": "CHIP DATA IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -995,7 +995,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:02 GMT
+Date: Tue, 08 Jun 2021 14:24:45 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -1007,7 +1007,7 @@ Connection: keep-alive
         "rrn": null,
         "responseCode": "03"
     },
-    "timestamp": "2021-06-08T04:23:01Z"
+    "timestamp": "2021-06-08T14:24:44Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -1058,7 +1058,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:02 GMT
+Date: Tue, 08 Jun 2021 14:24:45 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -1070,7 +1070,7 @@ Connection: keep-alive
         "rrn": null,
         "responseCode": "03"
     },
-    "timestamp": "2021-06-08T04:23:02Z"
+    "timestamp": "2021-06-08T14:24:45Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -1121,7 +1121,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:02 GMT
+Date: Tue, 08 Jun 2021 14:24:46 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -1133,7 +1133,7 @@ Connection: keep-alive
         "rrn": null,
         "responseCode": "F1"
     },
-    "timestamp": "2021-06-08T04:23:02Z"
+    "timestamp": "2021-06-08T14:24:46Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/online-sale
@@ -1184,7 +1184,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:03 GMT
+Date: Tue, 08 Jun 2021 14:24:46 GMT
 Connection: close
 
 {
@@ -1192,5 +1192,5 @@ Connection: close
     "errors": {
         "message": "INCORRECT PROCESSING CODE"
     },
-    "timestamp": "2021-06-08T04:23:03Z"
+    "timestamp": "2021-06-08T14:24:46Z"
 }

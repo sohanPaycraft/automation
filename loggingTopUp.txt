@@ -49,7 +49,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:10 GMT
+Date: Tue, 08 Jun 2021 14:24:56 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -59,11 +59,11 @@ Connection: keep-alive
         "approvalCode": "205645",
         "chip-balance": "000000010100",
         "total-balance": "000000010100",
-        "field55Data": "9110B951714480804000FFFE000000000100",
+        "field55Data": "91104413FEA880C44000FFFE000000000100",
         "offlineBalSign": "C",
-        "rrn": "115909200032",
+        "rrn": "115919200032",
         "responseCode": "00",
         "onlineBalSign": "C"
     },
-    "timestamp": "2021-06-08T04:23:06Z"
+    "timestamp": "2021-06-08T14:24:52Z"
 }

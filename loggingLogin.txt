@@ -26,7 +26,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:10 GMT
+Date: Tue, 08 Jun 2021 14:24:56 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -37,7 +37,7 @@ Connection: keep-alive
         "field60": null,
         "responseCode": "00"
     },
-    "timestamp": "2021-06-08T04:23:10Z"
+    "timestamp": "2021-06-08T14:24:56Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -67,7 +67,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:10 GMT
+Date: Tue, 08 Jun 2021 14:24:56 GMT
 Connection: close
 
 {
@@ -75,7 +75,7 @@ Connection: close
     "errors": {
         "message": "APP VERSION NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:10Z"
+    "timestamp": "2021-06-08T14:24:57Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -105,7 +105,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:10 GMT
+Date: Tue, 08 Jun 2021 14:24:56 GMT
 Connection: close
 
 {
@@ -113,7 +113,7 @@ Connection: close
     "errors": {
         "message": "MERCHANT IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:10Z"
+    "timestamp": "2021-06-08T14:24:57Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -143,7 +143,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:10 GMT
+Date: Tue, 08 Jun 2021 14:24:57 GMT
 Connection: close
 
 {
@@ -151,7 +151,7 @@ Connection: close
     "errors": {
         "message": "MERCHANT DETAILS IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:10Z"
+    "timestamp": "2021-06-08T14:24:57Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -181,7 +181,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:10 GMT
+Date: Tue, 08 Jun 2021 14:24:57 GMT
 Connection: close
 
 {
@@ -189,7 +189,7 @@ Connection: close
     "errors": {
         "message": "POS SERIAL NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:11Z"
+    "timestamp": "2021-06-08T14:24:57Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -219,7 +219,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:11 GMT
+Date: Tue, 08 Jun 2021 14:24:57 GMT
 Connection: close
 
 {
@@ -227,7 +227,7 @@ Connection: close
     "errors": {
         "message": "PROCESSING CODE IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:11Z"
+    "timestamp": "2021-06-08T14:24:57Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -257,7 +257,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:11 GMT
+Date: Tue, 08 Jun 2021 14:24:57 GMT
 Connection: close
 
 {
@@ -265,7 +265,7 @@ Connection: close
     "errors": {
         "message": "REQUEST ID IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:11Z"
+    "timestamp": "2021-06-08T14:24:57Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -295,7 +295,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:11 GMT
+Date: Tue, 08 Jun 2021 14:24:57 GMT
 Connection: close
 
 {
@@ -303,7 +303,7 @@ Connection: close
     "errors": {
         "message": "TERMINAL ID IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:11Z"
+    "timestamp": "2021-06-08T14:24:57Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -333,7 +333,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:11 GMT
+Date: Tue, 08 Jun 2021 14:24:57 GMT
 Connection: close
 
 {
@@ -341,7 +341,7 @@ Connection: close
     "errors": {
         "message": "STAN IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:11Z"
+    "timestamp": "2021-06-08T14:24:57Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -371,7 +371,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:11 GMT
+Date: Tue, 08 Jun 2021 14:24:57 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -382,7 +382,7 @@ Connection: keep-alive
         "field60": null,
         "responseCode": "03"
     },
-    "timestamp": "2021-06-08T04:23:11Z"
+    "timestamp": "2021-06-08T14:24:58Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -412,7 +412,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:11 GMT
+Date: Tue, 08 Jun 2021 14:24:58 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -423,7 +423,7 @@ Connection: keep-alive
         "field60": null,
         "responseCode": "03"
     },
-    "timestamp": "2021-06-08T04:23:11Z"
+    "timestamp": "2021-06-08T14:24:58Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -453,7 +453,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:11 GMT
+Date: Tue, 08 Jun 2021 14:24:58 GMT
 Connection: close
 
 {
@@ -461,7 +461,7 @@ Connection: close
     "errors": {
         "message": "INCORRECT PROCESSING CODE"
     },
-    "timestamp": "2021-06-08T04:23:12Z"
+    "timestamp": "2021-06-08T14:24:58Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/logOn
@@ -491,7 +491,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:11 GMT
+Date: Tue, 08 Jun 2021 14:24:58 GMT
 Connection: close
 
 {
@@ -499,5 +499,5 @@ Connection: close
     "errors": {
         "message": "INVALID POS SERIAL NUMBER"
     },
-    "timestamp": "2021-06-08T04:23:12Z"
+    "timestamp": "2021-06-08T14:24:59Z"
 }

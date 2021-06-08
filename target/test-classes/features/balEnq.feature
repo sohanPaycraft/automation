@@ -1,5 +1,5 @@
 Feature: Validating Balance enquiry API
-@BalanceEnq @all
+@BalanceEnq @all 
   Scenario Outline: Verify if Balance enquiry API is working with <scenerio>
     Given Balance enquiry with "<ChipData>" "<amount>" "<appVersionNumber>" "<batchNumber>" "<invoiceNumber>" "<merchantID>" "<merchantNameLoc>" "<nii>" "<posEntryMode>" "<posSerialNumber>" "<processingCode>" "<reqId>" "<stan>""<terminalId>" "<track2Data>"
      When user calls BalEnq "BalanceEnq" with "POST" http request

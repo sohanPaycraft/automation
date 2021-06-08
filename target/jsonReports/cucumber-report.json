@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-08T04:22:47.324Z",
+        "start_timestamp": "2021-06-08T14:24:26.677Z",
         "line": 17,
         "name": "Verify if Balance enquiry API is working with Positive",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1519000000,
+              "duration": 1792000000,
               "status": "passed"
             },
             "line": 4,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 4061000000,
+              "duration": 5139000000,
               "status": "passed"
             },
             "line": 5,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 6,
@@ -127,7 +127,7 @@
           },
           {
             "result": {
-              "duration": 598000000,
+              "duration": 900000000,
               "status": "passed"
             },
             "line": 7,
@@ -149,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 62000000,
+              "duration": 86000000,
               "status": "passed"
             },
             "line": 8,
@@ -171,7 +171,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 9,
@@ -193,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 23000000,
               "status": "passed"
             },
             "line": 10,
@@ -217,11 +217,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:53.697Z",
+        "start_timestamp": "2021-06-08T14:24:34.838Z",
         "line": 18,
         "name": "Verify if Balance enquiry API is working with null appVersionNumber",
         "description": "",
@@ -231,7 +234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -305,7 +308,7 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 57000000,
               "status": "passed"
             },
             "line": 5,
@@ -327,6 +330,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -344,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 7,
@@ -366,7 +370,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -388,7 +391,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 22000000,
               "status": "passed"
             },
             "line": 9,
@@ -433,11 +436,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:53.774Z",
+        "start_timestamp": "2021-06-08T14:24:34.975Z",
         "line": 19,
         "name": "Verify if Balance enquiry API is working with null batchNumber",
         "description": "",
@@ -447,7 +453,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -521,7 +527,7 @@
           },
           {
             "result": {
-              "duration": 31000000,
+              "duration": 50000000,
               "status": "passed"
             },
             "line": 5,
@@ -560,7 +566,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -603,7 +609,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 9,
@@ -625,7 +631,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -649,11 +654,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:53.867Z",
+        "start_timestamp": "2021-06-08T14:24:35.110Z",
         "line": 20,
         "name": "Verify if Balance enquiry API is working with null invoiceNumber",
         "description": "",
@@ -663,7 +671,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 4,
@@ -737,7 +745,7 @@
           },
           {
             "result": {
-              "duration": 137000000,
+              "duration": 51000000,
               "status": "passed"
             },
             "line": 5,
@@ -776,7 +784,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 23000000,
               "status": "passed"
             },
             "line": 7,
@@ -819,7 +827,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "line": 9,
@@ -864,11 +872,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.046Z",
+        "start_timestamp": "2021-06-08T14:24:35.258Z",
         "line": 21,
         "name": "Verify if Balance enquiry API is working with null merchantID",
         "description": "",
@@ -878,7 +889,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -952,7 +963,7 @@
           },
           {
             "result": {
-              "duration": 24000000,
+              "duration": 42000000,
               "status": "passed"
             },
             "line": 5,
@@ -991,7 +1002,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 7,
@@ -1034,7 +1045,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 9,
@@ -1079,11 +1090,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.119Z",
+        "start_timestamp": "2021-06-08T14:24:35.368Z",
         "line": 22,
         "name": "Verify if Balance enquiry API is working with null merchantNameLoc",
         "description": "",
@@ -1093,7 +1107,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 4,
@@ -1167,7 +1181,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
+              "duration": 36000000,
               "status": "passed"
             },
             "line": 5,
@@ -1207,7 +1221,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 23000000,
               "status": "passed"
             },
             "line": 7,
@@ -1229,6 +1243,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -1250,7 +1265,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 9,
@@ -1295,11 +1310,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.191Z",
+        "start_timestamp": "2021-06-08T14:24:35.481Z",
         "line": 23,
         "name": "Verify if Balance enquiry API is working with null nii",
         "description": "",
@@ -1309,7 +1327,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 4,
@@ -1383,7 +1401,7 @@
           },
           {
             "result": {
-              "duration": 36000000,
+              "duration": 38000000,
               "status": "passed"
             },
             "line": 5,
@@ -1422,7 +1440,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 7,
@@ -1465,7 +1483,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 9,
@@ -1510,11 +1528,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.264Z",
+        "start_timestamp": "2021-06-08T14:24:35.588Z",
         "line": 24,
         "name": "Verify if Balance enquiry API is working with null posEntryMode",
         "description": "",
@@ -1524,7 +1545,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -1598,7 +1619,7 @@
           },
           {
             "result": {
-              "duration": 32000000,
+              "duration": 44000000,
               "status": "passed"
             },
             "line": 5,
@@ -1620,7 +1641,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -1638,7 +1658,7 @@
           },
           {
             "result": {
-              "duration": 17000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -1681,7 +1701,7 @@
           },
           {
             "result": {
-              "duration": 14000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 9,
@@ -1726,11 +1746,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.352Z",
+        "start_timestamp": "2021-06-08T14:24:35.705Z",
         "line": 25,
         "name": "Verify if Balance enquiry API is working with null posSerialNumber",
         "description": "",
@@ -1740,7 +1763,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -1814,7 +1837,7 @@
           },
           {
             "result": {
-              "duration": 61000000,
+              "duration": 35000000,
               "status": "passed"
             },
             "line": 5,
@@ -1854,7 +1877,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 7,
@@ -1897,7 +1920,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 25000000,
               "status": "passed"
             },
             "line": 9,
@@ -1919,6 +1942,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -1942,11 +1966,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.455Z",
+        "start_timestamp": "2021-06-08T14:24:35.819Z",
         "line": 26,
         "name": "Verify if Balance enquiry API is working with null processingCode",
         "description": "",
@@ -1956,7 +1983,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -2030,7 +2057,7 @@
           },
           {
             "result": {
-              "duration": 52000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "line": 5,
@@ -2069,7 +2096,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 7,
@@ -2112,7 +2139,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 9,
@@ -2157,11 +2184,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.550Z",
+        "start_timestamp": "2021-06-08T14:24:35.917Z",
         "line": 27,
         "name": "Verify if Balance enquiry API is working with null reqId",
         "description": "",
@@ -2171,7 +2201,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -2245,7 +2275,7 @@
           },
           {
             "result": {
-              "duration": 22000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "line": 5,
@@ -2267,6 +2297,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -2284,7 +2315,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -2306,6 +2337,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -2327,7 +2359,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 9,
@@ -2373,11 +2405,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.611Z",
+        "start_timestamp": "2021-06-08T14:24:36.014Z",
         "line": 28,
         "name": "Verify if Balance enquiry API is working with null stan",
         "description": "",
@@ -2387,7 +2422,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 4,
@@ -2461,7 +2496,7 @@
           },
           {
             "result": {
-              "duration": 31000000,
+              "duration": 39000000,
               "status": "passed"
             },
             "line": 5,
@@ -2500,7 +2535,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -2543,7 +2578,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 9,
@@ -2565,6 +2600,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -2588,11 +2624,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.678Z",
+        "start_timestamp": "2021-06-08T14:24:36.129Z",
         "line": 29,
         "name": "Verify if Balance enquiry API is working with null terminalId",
         "description": "",
@@ -2602,7 +2641,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 4,
@@ -2676,7 +2715,7 @@
           },
           {
             "result": {
-              "duration": 40000000,
+              "duration": 35000000,
               "status": "passed"
             },
             "line": 5,
@@ -2698,6 +2737,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -2715,7 +2755,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 7,
@@ -2758,7 +2798,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 22000000,
               "status": "passed"
             },
             "line": 9,
@@ -2803,11 +2843,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.756Z",
+        "start_timestamp": "2021-06-08T14:24:36.236Z",
         "line": 30,
         "name": "Verify if Balance enquiry API is working with null track2Data",
         "description": "",
@@ -2891,7 +2934,7 @@
           },
           {
             "result": {
-              "duration": 53000000,
+              "duration": 42000000,
               "status": "passed"
             },
             "line": 5,
@@ -2930,7 +2973,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 7,
@@ -2973,7 +3016,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "line": 9,
@@ -2995,7 +3038,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -3019,11 +3061,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.854Z",
+        "start_timestamp": "2021-06-08T14:24:36.359Z",
         "line": 31,
         "name": "Verify if Balance enquiry API is working with null amount",
         "description": "",
@@ -3033,7 +3078,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 4,
@@ -3107,7 +3152,7 @@
           },
           {
             "result": {
-              "duration": 22000000,
+              "duration": 38000000,
               "status": "passed"
             },
             "line": 5,
@@ -3146,7 +3191,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 7,
@@ -3168,6 +3213,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -3189,7 +3235,7 @@
           },
           {
             "result": {
-              "duration": 15000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 9,
@@ -3234,11 +3280,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:54.920Z",
+        "start_timestamp": "2021-06-08T14:24:36.467Z",
         "line": 32,
         "name": "Verify if Balance enquiry API is working with null ChipData",
         "description": "",
@@ -3248,7 +3297,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 4,
@@ -3322,7 +3371,7 @@
           },
           {
             "result": {
-              "duration": 65000000,
+              "duration": 45000000,
               "status": "passed"
             },
             "line": 5,
@@ -3344,6 +3393,7 @@
           },
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 6,
@@ -3361,7 +3411,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -3405,7 +3455,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 9,
@@ -3427,6 +3477,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -3450,11 +3501,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:55.028Z",
+        "start_timestamp": "2021-06-08T14:24:36.600Z",
         "line": 33,
         "name": "Verify if Balance enquiry API is working with wrong mid",
         "description": "",
@@ -3464,7 +3518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 4,
@@ -3538,7 +3592,7 @@
           },
           {
             "result": {
-              "duration": 405000000,
+              "duration": 520000000,
               "status": "passed"
             },
             "line": 5,
@@ -3577,7 +3631,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 7,
@@ -3599,7 +3653,7 @@
           },
           {
             "result": {
-              "duration": 62000000,
+              "duration": 85000000,
               "status": "passed"
             },
             "line": 8,
@@ -3621,7 +3675,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 9,
@@ -3643,7 +3697,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 22000000,
               "status": "passed"
             },
             "line": 10,
@@ -3667,11 +3721,14 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:22:55.542Z",
+        "start_timestamp": "2021-06-08T14:24:37.294Z",
         "line": 34,
         "name": "Verify if Balance enquiry API is working with wrong tid",
         "description": "",
@@ -3681,7 +3738,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -3755,7 +3812,7 @@
           },
           {
             "result": {
-              "duration": 379000000,
+              "duration": 526000000,
               "status": "passed"
             },
             "line": 5,
@@ -3777,6 +3834,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -3794,7 +3852,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 7,
@@ -3816,7 +3874,7 @@
           },
           {
             "result": {
-              "duration": 64000000,
+              "duration": 85000000,
               "status": "passed"
             },
             "line": 8,
@@ -3838,7 +3896,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 9,
@@ -3860,7 +3918,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 10,
@@ -3884,6 +3942,9 @@
         "tags": [
           {
             "name": "@BalanceEnq"
+          },
+          {
+            "name": "@all"
           }
         ]
       }
@@ -3899,7 +3960,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-08T04:22:56.031Z",
+        "start_timestamp": "2021-06-08T14:24:37.983Z",
         "line": 11,
         "name": "Verify if keyinjection API is working with positive",
         "description": "",
@@ -3909,7 +3970,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 4,
@@ -3951,7 +4012,7 @@
           },
           {
             "result": {
-              "duration": 344000000,
+              "duration": 472000000,
               "status": "passed"
             },
             "line": 5,
@@ -3973,7 +4034,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -3991,7 +4052,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 7,
@@ -4015,6 +4076,9 @@
         "tags": [
           {
             "name": "@keyinjection"
+          },
+          {
+            "name": "@all"
           }
         ]
       }
@@ -4030,7 +4094,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-08T04:22:56.407Z",
+        "start_timestamp": "2021-06-08T14:24:38.512Z",
         "line": 17,
         "name": "Verify if online sale API is working with Positive",
         "description": "",
@@ -4040,7 +4104,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 4,
@@ -4114,7 +4178,7 @@
           },
           {
             "result": {
-              "duration": 3586000000,
+              "duration": 4402000000,
               "status": "passed"
             },
             "line": 5,
@@ -4153,7 +4217,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 7,
@@ -4175,7 +4239,7 @@
           },
           {
             "result": {
-              "duration": 19000000,
+              "duration": 29000000,
               "status": "passed"
             },
             "line": 8,
@@ -4197,7 +4261,7 @@
           },
           {
             "result": {
-              "duration": 14000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 9,
@@ -4219,7 +4283,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 10,
@@ -4243,11 +4307,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.080Z",
+        "start_timestamp": "2021-06-08T14:24:43.046Z",
         "line": 18,
         "name": "Verify if online sale API is working with null appVersionNumber",
         "description": "",
@@ -4257,7 +4324,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 4,
@@ -4331,7 +4398,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 34000000,
               "status": "passed"
             },
             "line": 5,
@@ -4353,6 +4420,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -4370,7 +4438,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 7,
@@ -4392,6 +4460,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -4413,7 +4482,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 9,
@@ -4458,11 +4527,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.138Z",
+        "start_timestamp": "2021-06-08T14:24:43.146Z",
         "line": 19,
         "name": "Verify if online sale API is working with null batchNumber",
         "description": "",
@@ -4472,7 +4544,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -4546,7 +4618,7 @@
           },
           {
             "result": {
-              "duration": 34000000,
+              "duration": 27000000,
               "status": "passed"
             },
             "line": 5,
@@ -4568,6 +4640,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -4585,7 +4658,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
+              "duration": 43000000,
               "status": "passed"
             },
             "line": 7,
@@ -4628,7 +4701,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 9,
@@ -4673,11 +4746,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.223Z",
+        "start_timestamp": "2021-06-08T14:24:43.265Z",
         "line": 20,
         "name": "Verify if online sale API is working with null invoiceNumber",
         "description": "",
@@ -4687,7 +4763,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -4761,7 +4837,7 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 30000000,
               "status": "passed"
             },
             "line": 5,
@@ -4800,7 +4876,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 7,
@@ -4843,7 +4919,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 9,
@@ -4888,11 +4964,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.280Z",
+        "start_timestamp": "2021-06-08T14:24:43.357Z",
         "line": 21,
         "name": "Verify if online sale API is working with null merchantID",
         "description": "",
@@ -4902,7 +4981,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 4,
@@ -4976,7 +5055,7 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 34000000,
               "status": "passed"
             },
             "line": 5,
@@ -5015,7 +5094,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 24000000,
               "status": "passed"
             },
             "line": 7,
@@ -5058,7 +5137,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 9,
@@ -5103,11 +5182,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.343Z",
+        "start_timestamp": "2021-06-08T14:24:43.459Z",
         "line": 22,
         "name": "Verify if online sale API is working with null merchantNameLoc",
         "description": "",
@@ -5117,7 +5199,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -5191,7 +5273,7 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 37000000,
               "status": "passed"
             },
             "line": 5,
@@ -5213,6 +5295,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -5230,7 +5313,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 7,
@@ -5273,7 +5356,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 9,
@@ -5295,6 +5378,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -5318,11 +5402,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.404Z",
+        "start_timestamp": "2021-06-08T14:24:43.572Z",
         "line": 23,
         "name": "Verify if online sale API is working with null nii",
         "description": "",
@@ -5332,7 +5419,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -5406,7 +5493,7 @@
           },
           {
             "result": {
-              "duration": 22000000,
+              "duration": 33000000,
               "status": "passed"
             },
             "line": 5,
@@ -5428,7 +5515,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -5446,7 +5532,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -5489,7 +5575,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 9,
@@ -5534,11 +5620,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.459Z",
+        "start_timestamp": "2021-06-08T14:24:43.671Z",
         "line": 24,
         "name": "Verify if online sale API is working with null posEntryMode",
         "description": "",
@@ -5548,7 +5637,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 4,
@@ -5622,7 +5711,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 43000000,
               "status": "passed"
             },
             "line": 5,
@@ -5661,7 +5750,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 7,
@@ -5704,7 +5793,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 9,
@@ -5749,11 +5838,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.519Z",
+        "start_timestamp": "2021-06-08T14:24:43.774Z",
         "line": 25,
         "name": "Verify if online sale API is working with null posSerialNumber",
         "description": "",
@@ -5763,7 +5855,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 4,
@@ -5837,7 +5929,7 @@
           },
           {
             "result": {
-              "duration": 25000000,
+              "duration": 33000000,
               "status": "passed"
             },
             "line": 5,
@@ -5876,7 +5968,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 7,
@@ -5898,6 +5990,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -5919,7 +6012,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 9,
@@ -5964,11 +6057,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.584Z",
+        "start_timestamp": "2021-06-08T14:24:43.875Z",
         "line": 26,
         "name": "Verify if online sale API is working with null processingCode",
         "description": "",
@@ -5978,7 +6074,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 4,
@@ -6052,7 +6148,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 29000000,
               "status": "passed"
             },
             "line": 5,
@@ -6091,7 +6187,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 7,
@@ -6134,7 +6230,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 9,
@@ -6179,11 +6275,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.655Z",
+        "start_timestamp": "2021-06-08T14:24:43.970Z",
         "line": 27,
         "name": "Verify if online sale API is working with null reqId",
         "description": "",
@@ -6193,7 +6292,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 4,
@@ -6267,7 +6366,7 @@
           },
           {
             "result": {
-              "duration": 21000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "line": 5,
@@ -6289,6 +6388,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -6306,7 +6406,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -6349,7 +6449,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 9,
@@ -6371,6 +6471,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -6394,11 +6495,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.708Z",
+        "start_timestamp": "2021-06-08T14:24:44.054Z",
         "line": 28,
         "name": "Verify if online sale API is working with null stan",
         "description": "",
@@ -6408,7 +6512,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 4,
@@ -6482,7 +6586,7 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 41000000,
               "status": "passed"
             },
             "line": 5,
@@ -6521,7 +6625,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -6564,7 +6668,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 9,
@@ -6610,11 +6714,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.763Z",
+        "start_timestamp": "2021-06-08T14:24:44.162Z",
         "line": 29,
         "name": "Verify if online sale API is working with null terminalId",
         "description": "",
@@ -6624,7 +6731,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 4,
@@ -6698,7 +6805,7 @@
           },
           {
             "result": {
-              "duration": 34000000,
+              "duration": 33000000,
               "status": "passed"
             },
             "line": 5,
@@ -6737,7 +6844,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -6780,7 +6887,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 9,
@@ -6825,11 +6932,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.837Z",
+        "start_timestamp": "2021-06-08T14:24:44.250Z",
         "line": 30,
         "name": "Verify if online sale API is working with null track2Data",
         "description": "",
@@ -6839,7 +6949,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 4,
@@ -6913,7 +7023,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
+              "duration": 34000000,
               "status": "passed"
             },
             "line": 5,
@@ -6952,7 +7062,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 7,
@@ -6995,7 +7105,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 9,
@@ -7040,11 +7150,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.896Z",
+        "start_timestamp": "2021-06-08T14:24:44.352Z",
         "line": 31,
         "name": "Verify if online sale API is working with null amount",
         "description": "",
@@ -7054,7 +7167,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -7128,7 +7241,7 @@
           },
           {
             "result": {
-              "duration": 19000000,
+              "duration": 25000000,
               "status": "passed"
             },
             "line": 5,
@@ -7150,7 +7263,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -7168,7 +7280,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -7211,7 +7323,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 9,
@@ -7256,11 +7368,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:00.953Z",
+        "start_timestamp": "2021-06-08T14:24:44.443Z",
         "line": 32,
         "name": "Verify if online sale API is working with null ChipData",
         "description": "",
@@ -7270,7 +7385,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -7344,7 +7459,7 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 37000000,
               "status": "passed"
             },
             "line": 5,
@@ -7384,7 +7499,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -7427,7 +7542,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 9,
@@ -7473,11 +7588,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:01.015Z",
+        "start_timestamp": "2021-06-08T14:24:44.545Z",
         "line": 33,
         "name": "Verify if online sale API is working with wrong mid",
         "description": "",
@@ -7487,7 +7605,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -7561,7 +7679,7 @@
           },
           {
             "result": {
-              "duration": 386000000,
+              "duration": 516000000,
               "status": "passed"
             },
             "line": 5,
@@ -7600,7 +7718,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -7622,7 +7740,7 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 55000000,
               "status": "passed"
             },
             "line": 8,
@@ -7666,7 +7784,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 10,
@@ -7690,11 +7808,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:01.480Z",
+        "start_timestamp": "2021-06-08T14:24:45.179Z",
         "line": 34,
         "name": "Verify if online sale API is working with wrong tid",
         "description": "",
@@ -7778,7 +7899,7 @@
           },
           {
             "result": {
-              "duration": 406000000,
+              "duration": 517000000,
               "status": "passed"
             },
             "line": 5,
@@ -7817,7 +7938,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 7,
@@ -7839,7 +7960,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 41000000,
               "status": "passed"
             },
             "line": 8,
@@ -7861,7 +7982,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 9,
@@ -7883,7 +8004,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 10,
@@ -7907,11 +8028,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:01.956Z",
+        "start_timestamp": "2021-06-08T14:24:45.807Z",
         "line": 35,
         "name": "Verify if online sale API is working with wrong pos serial number",
         "description": "",
@@ -7921,7 +8045,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -7995,7 +8119,7 @@
           },
           {
             "result": {
-              "duration": 385000000,
+              "duration": 529000000,
               "status": "passed"
             },
             "line": 5,
@@ -8034,7 +8158,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 7,
@@ -8056,7 +8180,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 38000000,
               "status": "passed"
             },
             "line": 8,
@@ -8078,7 +8202,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 9,
@@ -8100,7 +8224,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 10,
@@ -8124,11 +8248,14 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:02.403Z",
+        "start_timestamp": "2021-06-08T14:24:46.445Z",
         "line": 36,
         "name": "Verify if online sale API is working with wrong processing code",
         "description": "",
@@ -8138,7 +8265,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 4,
@@ -8212,7 +8339,7 @@
           },
           {
             "result": {
-              "duration": 20000000,
+              "duration": 26000000,
               "status": "passed"
             },
             "line": 5,
@@ -8251,7 +8378,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -8273,6 +8400,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -8294,7 +8422,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 9,
@@ -8316,7 +8444,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -8340,6 +8467,9 @@
         "tags": [
           {
             "name": "@OnlineSale"
+          },
+          {
+            "name": "@all"
           }
         ]
       }
@@ -8355,7 +8485,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-08T04:23:02.459Z",
+        "start_timestamp": "2021-06-08T14:24:46.531Z",
         "line": 11,
         "name": "Verify if Operator key API is working with positive",
         "description": "",
@@ -8365,7 +8495,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 4,
@@ -8431,7 +8561,7 @@
           },
           {
             "result": {
-              "duration": 861000000,
+              "duration": 1239000000,
               "status": "passed"
             },
             "line": 5,
@@ -8453,6 +8583,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -8470,7 +8601,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 7,
@@ -8494,6 +8625,9 @@
         "tags": [
           {
             "name": "@Operator"
+          },
+          {
+            "name": "@all"
           }
         ]
       }
@@ -8509,7 +8643,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-08T04:23:03.353Z",
+        "start_timestamp": "2021-06-08T14:24:47.823Z",
         "line": 14,
         "name": "Verify if Parameter download API is working with correct data",
         "description": "",
@@ -8519,7 +8653,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 4,
@@ -8565,7 +8699,7 @@
           },
           {
             "result": {
-              "duration": 1181000000,
+              "duration": 1634000000,
               "status": "passed"
             },
             "line": 5,
@@ -8587,6 +8721,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -8626,7 +8761,7 @@
           },
           {
             "result": {
-              "duration": 18000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 8,
@@ -8648,7 +8783,7 @@
           },
           {
             "result": {
-              "duration": 15000000,
+              "duration": 27000000,
               "status": "passed"
             },
             "line": 9,
@@ -8672,11 +8807,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:04.605Z",
+        "start_timestamp": "2021-06-08T14:24:49.549Z",
         "line": 15,
         "name": "Verify if Parameter download API is working with null appVersionNumber",
         "description": "",
@@ -8686,7 +8824,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 4,
@@ -8732,7 +8870,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 24000000,
               "status": "passed"
             },
             "line": 5,
@@ -8754,7 +8892,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -8772,7 +8909,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 7,
@@ -8794,7 +8931,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 8,
@@ -8816,7 +8953,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 9,
@@ -8840,11 +8976,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:04.664Z",
+        "start_timestamp": "2021-06-08T14:24:49.631Z",
         "line": 16,
         "name": "Verify if Parameter download API is working with null MerchantID",
         "description": "",
@@ -8854,7 +8993,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -8900,7 +9039,346 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls param \"Parameter\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Parameter\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.user_calls_param_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the param API call got success with status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.the_param_api_call_got_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"status\" in param dowload response body is \"BAD_REQUEST\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"BAD_REQUEST\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.in_param_dowload_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "param download response  message is \"MERCHANT IS NULL OR EMPTY\" for \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MERCHANT IS NULL OR EMPTY\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 68
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.param_download_response_message_is_for(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "param download response code is \"\" for \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.param_download_response_code_is_for(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@parameter"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-08T14:24:49.708Z",
+        "line": 17,
+        "name": "Verify if Parameter download API is working with null PosSerialNumber",
+        "description": "",
+        "id": "validating-parameter-download-api;verify-if-parameter-download-api-is-working-with-\u003cscenerio\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "ParamDownload with \"0001\",\"000001\",\"120000000000001\",\"\",\"930000\",\"100004\",\"100004\",\"51000009\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0001\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"000001\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"120000000000001\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"930000\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"100004\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"100004\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"51000009\"",
+                  "offset": 83
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.ParamDownload_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls param \"Parameter\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Parameter\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.user_calls_param_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the param API call got success with status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.the_param_api_call_got_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"status\" in param dowload response body is \"BAD_REQUEST\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"BAD_REQUEST\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.in_param_dowload_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "param download response  message is \"POS SERIAL NUMBER IS NULL OR EMPTY\" for \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POS SERIAL NUMBER IS NULL OR EMPTY\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 77
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.param_download_response_message_is_for(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "param download response code is \"\" for \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"false\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.param_download_response_code_is_for(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@parameter"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-08T14:24:49.813Z",
+        "line": 18,
+        "name": "Verify if Parameter download API is working with null ProcessingCode",
+        "description": "",
+        "id": "validating-parameter-download-api;verify-if-parameter-download-api-is-working-with-\u003cscenerio\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "ParamDownload with \"0001\",\"000001\",\"120000000000001\",\"30383231363630353933\",\"\",\"100004\",\"100004\",\"51000009\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0001\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"000001\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"120000000000001\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"30383231363630353933\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"100004\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"100004\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"51000009\"",
+                  "offset": 97
+                }
+              ],
+              "location": "stepDefinations.ParameterDef.ParamDownload_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45000000,
               "status": "passed"
             },
             "line": 5,
@@ -8961,339 +9439,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "param download response  message is \"MERCHANT IS NULL OR EMPTY\" for \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"MERCHANT IS NULL OR EMPTY\"",
-                  "offset": 36
-                },
-                {
-                  "val": "\"false\"",
-                  "offset": 68
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.param_download_response_message_is_for(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "param download response code is \"\" for \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 32
-                },
-                {
-                  "val": "\"false\"",
-                  "offset": 39
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.param_download_response_code_is_for(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@parameter"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-06-08T04:23:04.735Z",
-        "line": 17,
-        "name": "Verify if Parameter download API is working with null PosSerialNumber",
-        "description": "",
-        "id": "validating-parameter-download-api;verify-if-parameter-download-api-is-working-with-\u003cscenerio\u003e;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "ParamDownload with \"0001\",\"000001\",\"120000000000001\",\"\",\"930000\",\"100004\",\"100004\",\"51000009\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"0001\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"000001\"",
-                  "offset": 26
-                },
-                {
-                  "val": "\"120000000000001\"",
-                  "offset": 35
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 53
-                },
-                {
-                  "val": "\"930000\"",
-                  "offset": 56
-                },
-                {
-                  "val": "\"100004\"",
-                  "offset": 65
-                },
-                {
-                  "val": "\"100004\"",
-                  "offset": 74
-                },
-                {
-                  "val": "\"51000009\"",
-                  "offset": 83
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.ParamDownload_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 23000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user calls param \"Parameter\" with \"POST\" http request",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Parameter\"",
-                  "offset": 17
-                },
-                {
-                  "val": "\"POST\"",
-                  "offset": 34
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.user_calls_param_with_http_request(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the param API call got success with status code 400",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 48
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.the_param_api_call_got_success_with_status_code(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "\"status\" in param dowload response body is \"BAD_REQUEST\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"status\"",
-                  "offset": 0
-                },
-                {
-                  "val": "\"BAD_REQUEST\"",
-                  "offset": 43
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.in_param_dowload_response_body_is(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "param download response  message is \"POS SERIAL NUMBER IS NULL OR EMPTY\" for \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"POS SERIAL NUMBER IS NULL OR EMPTY\"",
-                  "offset": 36
-                },
-                {
-                  "val": "\"false\"",
-                  "offset": 77
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.param_download_response_message_is_for(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "param download response code is \"\" for \"false\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 32
-                },
-                {
-                  "val": "\"false\"",
-                  "offset": 39
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.param_download_response_code_is_for(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@parameter"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-06-08T04:23:04.797Z",
-        "line": 18,
-        "name": "Verify if Parameter download API is working with null ProcessingCode",
-        "description": "",
-        "id": "validating-parameter-download-api;verify-if-parameter-download-api-is-working-with-\u003cscenerio\u003e;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "ParamDownload with \"0001\",\"000001\",\"120000000000001\",\"30383231363630353933\",\"\",\"100004\",\"100004\",\"51000009\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"0001\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"000001\"",
-                  "offset": 26
-                },
-                {
-                  "val": "\"120000000000001\"",
-                  "offset": 35
-                },
-                {
-                  "val": "\"30383231363630353933\"",
-                  "offset": 53
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 76
-                },
-                {
-                  "val": "\"100004\"",
-                  "offset": 79
-                },
-                {
-                  "val": "\"100004\"",
-                  "offset": 88
-                },
-                {
-                  "val": "\"51000009\"",
-                  "offset": 97
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.ParamDownload_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 29000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user calls param \"Parameter\" with \"POST\" http request",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Parameter\"",
-                  "offset": 17
-                },
-                {
-                  "val": "\"POST\"",
-                  "offset": 34
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.user_calls_param_with_http_request(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the param API call got success with status code 400",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 48
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.the_param_api_call_got_success_with_status_code(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "\"status\" in param dowload response body is \"BAD_REQUEST\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"status\"",
-                  "offset": 0
-                },
-                {
-                  "val": "\"BAD_REQUEST\"",
-                  "offset": 43
-                }
-              ],
-              "location": "stepDefinations.ParameterDef.in_param_dowload_response_body_is(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 9000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 8,
@@ -9338,11 +9484,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:04.859Z",
+        "start_timestamp": "2021-06-08T14:24:49.912Z",
         "line": 19,
         "name": "Verify if Parameter download API is working with null ReqId",
         "description": "",
@@ -9352,7 +9501,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 4,
@@ -9398,7 +9547,7 @@
           },
           {
             "result": {
-              "duration": 29000000,
+              "duration": 25000000,
               "status": "passed"
             },
             "line": 5,
@@ -9437,7 +9586,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 7,
@@ -9459,7 +9608,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 8,
@@ -9504,11 +9653,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:04.925Z",
+        "start_timestamp": "2021-06-08T14:24:49.993Z",
         "line": 20,
         "name": "Verify if Parameter download API is working with null Stan",
         "description": "",
@@ -9518,7 +9670,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -9564,7 +9716,7 @@
           },
           {
             "result": {
-              "duration": 27000000,
+              "duration": 42000000,
               "status": "passed"
             },
             "line": 5,
@@ -9603,7 +9755,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -9625,7 +9777,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 8,
@@ -9670,11 +9822,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:04.986Z",
+        "start_timestamp": "2021-06-08T14:24:50.093Z",
         "line": 21,
         "name": "Verify if Parameter download API is working with null TerminalId",
         "description": "",
@@ -9684,7 +9839,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -9730,7 +9885,7 @@
           },
           {
             "result": {
-              "duration": 21000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "line": 5,
@@ -9752,6 +9907,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -9769,7 +9925,7 @@
           },
           {
             "result": {
-              "duration": 24000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "line": 7,
@@ -9791,7 +9947,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 8,
@@ -9813,6 +9969,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 9,
@@ -9836,11 +9993,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:05.061Z",
+        "start_timestamp": "2021-06-08T14:24:50.192Z",
         "line": 22,
         "name": "Verify if Parameter download API is working with null batchNumber",
         "description": "",
@@ -9850,7 +10010,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -9896,7 +10056,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 34000000,
               "status": "passed"
             },
             "line": 5,
@@ -9918,7 +10078,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -9936,7 +10095,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 7,
@@ -9958,7 +10117,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 8,
@@ -10003,11 +10162,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:05.135Z",
+        "start_timestamp": "2021-06-08T14:24:50.282Z",
         "line": 23,
         "name": "Verify if Parameter download API is working with wrong mid",
         "description": "",
@@ -10017,7 +10179,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 4,
@@ -10063,7 +10225,7 @@
           },
           {
             "result": {
-              "duration": 290000000,
+              "duration": 595000000,
               "status": "passed"
             },
             "line": 5,
@@ -10085,6 +10247,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -10102,7 +10265,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -10124,7 +10287,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 8,
@@ -10146,7 +10309,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 9,
@@ -10170,11 +10333,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:05.468Z",
+        "start_timestamp": "2021-06-08T14:24:50.944Z",
         "line": 24,
         "name": "Verify if Parameter download API is working with worng TerminalId",
         "description": "",
@@ -10230,7 +10396,7 @@
           },
           {
             "result": {
-              "duration": 287000000,
+              "duration": 378000000,
               "status": "passed"
             },
             "line": 5,
@@ -10269,7 +10435,7 @@
           },
           {
             "result": {
-              "duration": 14000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 7,
@@ -10291,7 +10457,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "line": 8,
@@ -10313,7 +10479,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 34000000,
               "status": "passed"
             },
             "line": 9,
@@ -10337,11 +10503,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:05.797Z",
+        "start_timestamp": "2021-06-08T14:24:51.425Z",
         "line": 25,
         "name": "Verify if Parameter download API is working with Wrong processingCode",
         "description": "",
@@ -10397,7 +10566,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 50000000,
               "status": "passed"
             },
             "line": 5,
@@ -10436,7 +10605,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 7,
@@ -10458,7 +10627,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 8,
@@ -10503,11 +10672,14 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:05.856Z",
+        "start_timestamp": "2021-06-08T14:24:51.523Z",
         "line": 26,
         "name": "Verify if Parameter download API is working with Wrong posSerialNumber",
         "description": "",
@@ -10517,7 +10689,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -10563,7 +10735,7 @@
           },
           {
             "result": {
-              "duration": 19000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 5,
@@ -10602,7 +10774,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 7,
@@ -10624,7 +10796,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 8,
@@ -10646,6 +10818,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 9,
@@ -10669,6 +10842,9 @@
         "tags": [
           {
             "name": "@parameter"
+          },
+          {
+            "name": "@all"
           }
         ]
       }
@@ -10684,7 +10860,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-08T04:23:05.905Z",
+        "start_timestamp": "2021-06-08T14:24:51.594Z",
         "line": 11,
         "name": "Verify if topup API is working with Positive",
         "description": "",
@@ -10694,7 +10870,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 4,
@@ -10772,7 +10948,7 @@
           },
           {
             "result": {
-              "duration": 3535000000,
+              "duration": 4519000000,
               "status": "passed"
             },
             "line": 5,
@@ -10811,7 +10987,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 7,
@@ -10835,6 +11011,9 @@
         "tags": [
           {
             "name": "@TopUp"
+          },
+          {
+            "name": "@all"
           }
         ]
       }
@@ -10850,7 +11029,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-08T04:23:09.473Z",
+        "start_timestamp": "2021-06-08T14:24:56.160Z",
         "line": 13,
         "name": "Verify if Logon API is working with correct data",
         "description": "",
@@ -10860,7 +11039,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 4,
@@ -10906,7 +11085,7 @@
           },
           {
             "result": {
-              "duration": 564000000,
+              "duration": 741000000,
               "status": "passed"
             },
             "line": 5,
@@ -10945,7 +11124,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 7,
@@ -10967,7 +11146,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 8,
@@ -10989,7 +11168,7 @@
           },
           {
             "result": {
-              "duration": 17000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 9,
@@ -11013,11 +11192,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.102Z",
+        "start_timestamp": "2021-06-08T14:24:56.978Z",
         "line": 14,
         "name": "Verify if Logon API is working with null app version",
         "description": "",
@@ -11027,7 +11209,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -11073,7 +11255,7 @@
           },
           {
             "result": {
-              "duration": 22000000,
+              "duration": 26000000,
               "status": "passed"
             },
             "line": 5,
@@ -11112,7 +11294,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -11134,7 +11316,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 8,
@@ -11179,11 +11361,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.166Z",
+        "start_timestamp": "2021-06-08T14:24:57.071Z",
         "line": 15,
         "name": "Verify if Logon API is working with null merchantID",
         "description": "",
@@ -11193,7 +11378,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 4,
@@ -11239,7 +11424,7 @@
           },
           {
             "result": {
-              "duration": 19000000,
+              "duration": 30000000,
               "status": "passed"
             },
             "line": 5,
@@ -11278,7 +11463,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 7,
@@ -11300,7 +11485,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 8,
@@ -11345,11 +11530,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.236Z",
+        "start_timestamp": "2021-06-08T14:24:57.168Z",
         "line": 16,
         "name": "Verify if Logon API is working with null merchantNameLoc",
         "description": "",
@@ -11359,7 +11547,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 4,
@@ -11405,7 +11593,7 @@
           },
           {
             "result": {
-              "duration": 54000000,
+              "duration": 26000000,
               "status": "passed"
             },
             "line": 5,
@@ -11427,7 +11615,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -11445,7 +11632,7 @@
           },
           {
             "result": {
-              "duration": 18000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 7,
@@ -11467,7 +11654,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 8,
@@ -11512,11 +11699,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.340Z",
+        "start_timestamp": "2021-06-08T14:24:57.256Z",
         "line": 17,
         "name": "Verify if Logon API is working with null posSerialNumber",
         "description": "",
@@ -11526,7 +11716,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -11572,7 +11762,7 @@
           },
           {
             "result": {
-              "duration": 52000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "line": 5,
@@ -11611,7 +11801,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -11633,7 +11823,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 8,
@@ -11678,11 +11868,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.423Z",
+        "start_timestamp": "2021-06-08T14:24:57.331Z",
         "line": 18,
         "name": "Verify if Logon API is working with null processingCode",
         "description": "",
@@ -11692,7 +11885,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 4,
@@ -11738,7 +11931,7 @@
           },
           {
             "result": {
-              "duration": 24000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "line": 5,
@@ -11760,7 +11953,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -11778,7 +11970,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -11800,7 +11992,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 8,
@@ -11845,11 +12037,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.479Z",
+        "start_timestamp": "2021-06-08T14:24:57.411Z",
         "line": 19,
         "name": "Verify if Logon API is working with null reqId",
         "description": "",
@@ -11905,7 +12100,7 @@
           },
           {
             "result": {
-              "duration": 21000000,
+              "duration": 25000000,
               "status": "passed"
             },
             "line": 5,
@@ -11944,7 +12139,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -11966,7 +12161,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 8,
@@ -12011,11 +12206,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.528Z",
+        "start_timestamp": "2021-06-08T14:24:57.492Z",
         "line": 20,
         "name": "Verify if Logon API is working with null terminalId",
         "description": "",
@@ -12025,7 +12223,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 4,
@@ -12071,7 +12269,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 26000000,
               "status": "passed"
             },
             "line": 5,
@@ -12110,7 +12308,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 7,
@@ -12132,7 +12330,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 8,
@@ -12154,7 +12352,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 9,
@@ -12178,11 +12375,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.582Z",
+        "start_timestamp": "2021-06-08T14:24:57.570Z",
         "line": 21,
         "name": "Verify if Logon API is working with null stan",
         "description": "",
@@ -12192,7 +12392,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 4,
@@ -12238,7 +12438,7 @@
           },
           {
             "result": {
-              "duration": 19000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "line": 5,
@@ -12277,7 +12477,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 7,
@@ -12299,7 +12499,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 8,
@@ -12344,11 +12544,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.635Z",
+        "start_timestamp": "2021-06-08T14:24:57.650Z",
         "line": 22,
         "name": "Verify if Logon API is working with Wrong MID",
         "description": "",
@@ -12358,7 +12561,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -12404,7 +12607,7 @@
           },
           {
             "result": {
-              "duration": 282000000,
+              "duration": 376000000,
               "status": "passed"
             },
             "line": 5,
@@ -12443,7 +12646,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 7,
@@ -12465,7 +12668,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 8,
@@ -12487,7 +12690,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 17000000,
               "status": "passed"
             },
             "line": 9,
@@ -12511,11 +12714,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:10.953Z",
+        "start_timestamp": "2021-06-08T14:24:58.096Z",
         "line": 23,
         "name": "Verify if Logon API is working with Wrong TID",
         "description": "",
@@ -12525,7 +12731,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 4,
@@ -12571,7 +12777,7 @@
           },
           {
             "result": {
-              "duration": 293000000,
+              "duration": 379000000,
               "status": "passed"
             },
             "line": 5,
@@ -12593,7 +12799,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -12611,7 +12816,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 7,
@@ -12633,7 +12838,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 8,
@@ -12655,7 +12860,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 9,
@@ -12679,11 +12884,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:11.287Z",
+        "start_timestamp": "2021-06-08T14:24:58.538Z",
         "line": 24,
         "name": "Verify if Logon API is working with Wrong processingCode",
         "description": "",
@@ -12739,7 +12947,7 @@
           },
           {
             "result": {
-              "duration": 22000000,
+              "duration": 29000000,
               "status": "passed"
             },
             "line": 5,
@@ -12778,7 +12986,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -12800,7 +13008,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 8,
@@ -12845,11 +13053,14 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-08T04:23:11.339Z",
+        "start_timestamp": "2021-06-08T14:24:58.622Z",
         "line": 25,
         "name": "Verify if Logon API is working with Wrong posSerialNumber",
         "description": "",
@@ -12859,7 +13070,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 4,
@@ -12905,7 +13116,7 @@
           },
           {
             "result": {
-              "duration": 19000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "line": 5,
@@ -12944,7 +13155,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 7,
@@ -12966,7 +13177,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "line": 8,
@@ -13011,6 +13222,9 @@
         "tags": [
           {
             "name": "@login"
+          },
+          {
+            "name": "@all"
           }
         ]
       }

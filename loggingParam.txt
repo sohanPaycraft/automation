@@ -28,17 +28,17 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
     "status": "OK",
     "payload": {
-        "field60": "000101010101873132303030303030303030303030312D31333550756E65204D6574726F205465737420312020202020204B4F524547414F4E205041524B4D48494E4B4F524547414F4E205041524B20202020202020202020202020202020202020202020202020202031535420464C4F4F522C20544845204F52494F4E2E204B4F524547414F4E205041524B20524F41444B4F524547414F4E205041524B2C31535420464C4F4F522C20544845204F52494F4E2E204B4F524500000098732925980004010102007000020160785800006078589999417869732020202020202020202020202020202001000001817423000081742399994844464320527570617920436C6173736963202001000000010101030051052420300100004301143132332E3235322E3230362E343202026661311561697274656C2E677072732E636F6D320120330120000101011100110015000000123000602300",
+        "field60": "000101010101873132303030303030303030303030312D31313750756E65204D6574726F205465737420312020202020204B4F524547414F4E205041524B4D48494E4B4F524547414F4E205041524B20202020202020202020202020202020202020202020202020202031535420464C4F4F522C20544845204F52494F4E2E204B4F524547414F4E205041524B20524F41444B4F524547414F4E205041524B2C31535420464C4F4F522C20544845204F52494F4E2E204B4F524500000098732925980004010102007000020160785800006078589999417869732020202020202020202020202020202001000001817423000081742399994844464320527570617920436C6173736963202001000000010101030051052420300100004301143132332E3235322E3230362E343202026661311561697274656C2E677072732E636F6D320120330120000101011100110015000000123000602300",
         "responseCode": "00"
     },
-    "timestamp": "2021-06-08T04:23:04Z"
+    "timestamp": "2021-06-08T14:24:48Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -70,7 +70,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Connection: close
 
 {
@@ -78,7 +78,7 @@ Connection: close
     "errors": {
         "message": "APP VERSION NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:49Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -110,7 +110,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Connection: close
 
 {
@@ -118,7 +118,7 @@ Connection: close
     "errors": {
         "message": "MERCHANT IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:50Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -150,7 +150,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Connection: close
 
 {
@@ -158,7 +158,7 @@ Connection: close
     "errors": {
         "message": "POS SERIAL NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:50Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -190,7 +190,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Connection: close
 
 {
@@ -198,7 +198,7 @@ Connection: close
     "errors": {
         "message": "PROCESSING CODE IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:50Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -230,7 +230,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Connection: close
 
 {
@@ -238,7 +238,7 @@ Connection: close
     "errors": {
         "message": "REQUEST ID IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:50Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -270,7 +270,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Connection: close
 
 {
@@ -278,7 +278,7 @@ Connection: close
     "errors": {
         "message": "STAN IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:50Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -310,7 +310,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Connection: close
 
 {
@@ -318,7 +318,7 @@ Connection: close
     "errors": {
         "message": "TERMINAL ID IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:50Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -350,7 +350,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:49 GMT
 Connection: close
 
 {
@@ -358,7 +358,7 @@ Connection: close
     "errors": {
         "message": "BATCH NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:50Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -390,7 +390,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:05 GMT
+Date: Tue, 08 Jun 2021 14:24:51 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -400,7 +400,7 @@ Connection: keep-alive
         "field60": null,
         "responseCode": "03"
     },
-    "timestamp": "2021-06-08T04:23:05Z"
+    "timestamp": "2021-06-08T14:24:50Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -432,7 +432,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:06 GMT
+Date: Tue, 08 Jun 2021 14:24:51 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -442,7 +442,7 @@ Connection: keep-alive
         "field60": null,
         "responseCode": "03"
     },
-    "timestamp": "2021-06-08T04:23:06Z"
+    "timestamp": "2021-06-08T14:24:51Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -474,7 +474,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:06 GMT
+Date: Tue, 08 Jun 2021 14:24:51 GMT
 Connection: close
 
 {
@@ -482,7 +482,7 @@ Connection: close
     "errors": {
         "message": "INCORRECT PROCESSING CODE"
     },
-    "timestamp": "2021-06-08T04:23:06Z"
+    "timestamp": "2021-06-08T14:24:51Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/parameter-download
@@ -514,7 +514,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:23:06 GMT
+Date: Tue, 08 Jun 2021 14:24:51 GMT
 Connection: close
 
 {
@@ -522,5 +522,5 @@ Connection: close
     "errors": {
         "message": "INVALID POS SERIAL NUMBER"
     },
-    "timestamp": "2021-06-08T04:23:06Z"
+    "timestamp": "2021-06-08T14:24:51Z"
 }

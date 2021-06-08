@@ -45,7 +45,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:53 GMT
+Date: Tue, 08 Jun 2021 14:24:34 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -55,13 +55,13 @@ Connection: keep-alive
         "approvalCode": "205247",
         "chip-balance": "000000000000",
         "total-balance": "000000000000",
-        "field55Data": "91102ECBFD61808000000000000000000000",
+        "field55Data": "91105EAA5CD780C400000000000000000000",
         "offlineBalSign": "C",
-        "rrn": "115909200032",
+        "rrn": "115919200032",
         "responseCode": "00",
         "onlineBalSign": "C"
     },
-    "timestamp": "2021-06-08T04:22:50Z"
+    "timestamp": "2021-06-08T14:24:30Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -110,7 +110,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:53 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -118,7 +118,7 @@ Connection: close
     "errors": {
         "message": "APP VERSION NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:54Z"
+    "timestamp": "2021-06-08T14:24:35Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -167,7 +167,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:53 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -175,7 +175,7 @@ Connection: close
     "errors": {
         "message": "BATCH NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:54Z"
+    "timestamp": "2021-06-08T14:24:35Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -224,7 +224,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -232,7 +232,7 @@ Connection: close
     "errors": {
         "message": "INVOICE NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:54Z"
+    "timestamp": "2021-06-08T14:24:35Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -281,7 +281,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -289,7 +289,7 @@ Connection: close
     "errors": {
         "message": "MERCHANT IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:54Z"
+    "timestamp": "2021-06-08T14:24:35Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -338,7 +338,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -346,7 +346,7 @@ Connection: close
     "errors": {
         "message": "MERCHANT DETAILS IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:54Z"
+    "timestamp": "2021-06-08T14:24:35Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -395,7 +395,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -403,7 +403,7 @@ Connection: close
     "errors": {
         "message": "NII IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:54Z"
+    "timestamp": "2021-06-08T14:24:35Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -452,7 +452,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -460,7 +460,7 @@ Connection: close
     "errors": {
         "message": "POS ENTRY MODE IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -509,7 +509,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -517,7 +517,7 @@ Connection: close
     "errors": {
         "message": "POS SERIAL NUMBER IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -566,7 +566,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:35 GMT
 Connection: close
 
 {
@@ -574,7 +574,7 @@ Connection: close
     "errors": {
         "message": "PROCESSING CODE IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -623,7 +623,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:36 GMT
 Connection: close
 
 {
@@ -631,7 +631,7 @@ Connection: close
     "errors": {
         "message": "REQUEST ID IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -680,7 +680,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:36 GMT
 Connection: close
 
 {
@@ -688,7 +688,7 @@ Connection: close
     "errors": {
         "message": "STAN IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -737,7 +737,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:36 GMT
 Connection: close
 
 {
@@ -745,7 +745,7 @@ Connection: close
     "errors": {
         "message": "TERMINAL ID IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -794,7 +794,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:36 GMT
 Connection: close
 
 {
@@ -802,7 +802,7 @@ Connection: close
     "errors": {
         "message": "TRACK2 DATA IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -851,7 +851,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:36 GMT
 Connection: close
 
 {
@@ -859,7 +859,7 @@ Connection: close
     "errors": {
         "message": "AMOUNT IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -908,7 +908,7 @@ Body:
 HTTP/1.1 400 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:54 GMT
+Date: Tue, 08 Jun 2021 14:24:36 GMT
 Connection: close
 
 {
@@ -916,7 +916,7 @@ Connection: close
     "errors": {
         "message": "CHIP DATA IS NULL OR EMPTY"
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:36Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -965,7 +965,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:56 GMT
+Date: Tue, 08 Jun 2021 14:24:37 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -981,7 +981,7 @@ Connection: keep-alive
         "responseCode": "03",
         "onlineBalSign": null
     },
-    "timestamp": "2021-06-08T04:22:55Z"
+    "timestamp": "2021-06-08T14:24:37Z"
 }
 Request method:	POST
 Request URI:	http://20.198.90.49:9875/bal-enq
@@ -1030,7 +1030,7 @@ Body:
 HTTP/1.1 200 
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 08 Jun 2021 04:22:56 GMT
+Date: Tue, 08 Jun 2021 14:24:37 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -1046,5 +1046,5 @@ Connection: keep-alive
         "responseCode": "03",
         "onlineBalSign": null
     },
-    "timestamp": "2021-06-08T04:22:56Z"
+    "timestamp": "2021-06-08T14:24:37Z"
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="67" failures="0" name="cucumber.Options.TestRunner" time="24.211" errors="0" skipped="0">
+<testsuite tests="67" failures="0" name="cucumber.Options.TestRunner" time="32.273" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_291\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\admin\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\.dotnet\tools;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\.dotnet\tools;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;;."/>
     <property name="maven.conf" value="C:\Users\admin\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -65,71 +65,71 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with Positive" time="6.527"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null appVersionNumber" time="0.076"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null batchNumber" time="0.09"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null invoiceNumber" time="0.189"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null merchantID" time="0.063"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null merchantNameLoc" time="0.077"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null nii" time="0.077"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null posEntryMode" time="0.083"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null posSerialNumber" time="0.107"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null processingCode" time="0.087"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null reqId" time="0.07"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null stan" time="0.067"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null terminalId" time="0.075"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null track2Data" time="0.098"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null amount" time="0.066"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null ChipData" time="0.109"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with wrong mid" time="0.512"/>
-  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with wrong tid" time="0.491"/>
-  <testcase classname="Validating Operator key API #1" name="Verify if keyinjection API is working with positive" time="0.374"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with Positive" time="3.675"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null appVersionNumber" time="0.057"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null batchNumber" time="0.087"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null invoiceNumber" time="0.057"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null merchantID" time="0.057"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null merchantNameLoc" time="0.063"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null nii" time="0.059"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null posEntryMode" time="0.057"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null posSerialNumber" time="0.063"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null processingCode" time="0.071"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null reqId" time="0.058"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null stan" time="0.057"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null terminalId" time="0.068"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null track2Data" time="0.061"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null amount" time="0.055"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null ChipData" time="0.066"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with wrong mid" time="0.463"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with wrong tid" time="0.468"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with wrong pos serial number" time="0.451"/>
-  <testcase classname="Validating online sale API" name="Verify if online sale API is working with wrong processing code" time="0.059"/>
-  <testcase classname="Validating Operator key API #2" name="Verify if Operator key API is working with positive" time="0.891"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with correct data" time="1.25"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null appVersionNumber" time="0.065"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null MerchantID" time="0.067"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null PosSerialNumber" time="0.064"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null ProcessingCode" time="0.063"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null ReqId" time="0.059"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null Stan" time="0.065"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null TerminalId" time="0.071"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null batchNumber" time="0.079"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with wrong mid" time="0.333"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with worng TerminalId" time="0.33"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with Wrong processingCode" time="0.059"/>
-  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with Wrong posSerialNumber" time="0.046"/>
-  <testcase classname="Validating topUp  API" name="Verify if topup API is working with Positive" time="3.57"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with correct data" time="0.621"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null app version" time="0.068"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null merchantID" time="0.052"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null merchantNameLoc" time="0.124"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null posSerialNumber" time="0.083"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null processingCode" time="0.051"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null reqId" time="0.054"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null terminalId" time="0.05"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null stan" time="0.057"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with Wrong MID" time="0.315"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with Wrong TID" time="0.329"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with Wrong processingCode" time="0.059"/>
-  <testcase classname="Validating Logon API" name="Verify if Logon API is working with Wrong posSerialNumber" time="0.046"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with Positive" time="8.41"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null appVersionNumber" time="0.142"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null batchNumber" time="0.126"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null invoiceNumber" time="0.155"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null merchantID" time="0.119"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null merchantNameLoc" time="0.105"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null nii" time="0.11"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null posEntryMode" time="0.116"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null posSerialNumber" time="0.113"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null processingCode" time="0.096"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null reqId" time="0.102"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null stan" time="0.111"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null terminalId" time="0.11"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null track2Data" time="0.122"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null amount" time="0.103"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with null ChipData" time="0.125"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with wrong mid" time="0.7"/>
+  <testcase classname="Validating Balance enquiry API" name="Verify if Balance enquiry API is working with wrong tid" time="0.69"/>
+  <testcase classname="Validating Operator key API #1" name="Verify if keyinjection API is working with positive" time="0.529"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with Positive" time="4.536"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null appVersionNumber" time="0.101"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null batchNumber" time="0.11"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null invoiceNumber" time="0.103"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null merchantID" time="0.098"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null merchantNameLoc" time="0.107"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null nii" time="0.1"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null posEntryMode" time="0.111"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null posSerialNumber" time="0.097"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null processingCode" time="0.1"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null reqId" time="0.082"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null stan" time="0.103"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null terminalId" time="0.098"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null track2Data" time="0.097"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null amount" time="0.09"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with null ChipData" time="0.098"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with wrong mid" time="0.637"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with wrong tid" time="0.62"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with wrong pos serial number" time="0.643"/>
+  <testcase classname="Validating online sale API" name="Verify if online sale API is working with wrong processing code" time="0.091"/>
+  <testcase classname="Validating Operator key API #2" name="Verify if Operator key API is working with positive" time="1.287"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with correct data" time="1.731"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null appVersionNumber" time="0.08"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null MerchantID" time="0.077"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null PosSerialNumber" time="0.099"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null ProcessingCode" time="0.105"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null ReqId" time="0.077"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null Stan" time="0.099"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null TerminalId" time="0.103"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with null batchNumber" time="0.092"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with wrong mid" time="0.657"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with worng TerminalId" time="0.479"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with Wrong processingCode" time="0.101"/>
+  <testcase classname="Validating Parameter download API" name="Verify if Parameter download API is working with Wrong posSerialNumber" time="0.074"/>
+  <testcase classname="Validating topUp  API" name="Verify if topup API is working with Positive" time="4.562"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with correct data" time="0.816"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null app version" time="0.092"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null merchantID" time="0.091"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null merchantNameLoc" time="0.092"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null posSerialNumber" time="0.082"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null processingCode" time="0.077"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null reqId" time="0.078"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null terminalId" time="0.081"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with null stan" time="0.085"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with Wrong MID" time="0.439"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with Wrong TID" time="0.442"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with Wrong processingCode" time="0.08"/>
+  <testcase classname="Validating Logon API" name="Verify if Logon API is working with Wrong posSerialNumber" time="0.089"/>
 </testsuite>
