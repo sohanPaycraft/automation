@@ -1,0 +1,503 @@
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:10 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "payload": {
+        "field63": "00053537000001",
+        "field60": null,
+        "responseCode": "00"
+    },
+    "timestamp": "2021-06-08T04:23:10Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:10 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "APP VERSION NUMBER IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:23:10Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:10 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "MERCHANT IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:23:10Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:10 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "MERCHANT DETAILS IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:23:10Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:10 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "POS SERIAL NUMBER IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:23:11Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:11 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "PROCESSING CODE IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:23:11Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:11 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "REQUEST ID IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:23:11Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": ""
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:11 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "TERMINAL ID IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:23:11Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:11 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "STAN IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:23:11Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "1200000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:11 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "payload": {
+        "field63": null,
+        "field60": null,
+        "responseCode": "03"
+    },
+    "timestamp": "2021-06-08T04:23:11Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "1200000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "510009"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:11 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "payload": {
+        "field63": null,
+        "field60": null,
+        "responseCode": "03"
+    },
+    "timestamp": "2021-06-08T04:23:11Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "1200000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383231363630353933",
+    "processingCode": "90000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:11 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "INCORRECT PROCESSING CODE"
+    },
+    "timestamp": "2021-06-08T04:23:12Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/logOn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "appVersionNumber": "0001",
+    "invoiceNumber": "100003",
+    "localDate": "0528",
+    "localTime": "145956",
+    "merchantID": "1200000000001",
+    "merchantNameLoc": "MMOPL",
+    "posSerialNumber": "30383233630353933",
+    "processingCode": "920000",
+    "reqId": "100003",
+    "stan": "100003",
+    "terminalId": "51000009"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:11 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "INVALID POS SERIAL NUMBER"
+    },
+    "timestamp": "2021-06-08T04:23:12Z"
+}

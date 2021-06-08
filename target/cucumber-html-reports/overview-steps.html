@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumber-jvm-example</td>
+        <td>1</td>
+      <td>08 Jun 2021, 09:53</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">stepDefinations.BalanceEnq.balance_enquiry_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="88944444">0.088</td>
+              <td class="duration" data-value="88944444">1.519</td>
+              <td class="duration" data-value="1601000000">1.601</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.BalanceEnq.check_if_response_contains_rrn_chip_balance_total_balance_for_and_status_is(java.lang.String,java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="10555555">0.010</td>
+              <td class="duration" data-value="10555555">0.064</td>
+              <td class="duration" data-value="190000000">0.190</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.BalanceEnq.in_bal_response_body_is(java.lang.String,java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="43555555">0.043</td>
+              <td class="duration" data-value="43555555">0.598</td>
+              <td class="duration" data-value="784000000">0.784</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.BalanceEnq.response_code_for_baane_enq_is_for(java.lang.String,java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="2055555">0.002</td>
+              <td class="duration" data-value="2055555">0.012</td>
+              <td class="duration" data-value="37000000">0.037</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.BalanceEnq.response_message_for_balance_enq_is_for(java.lang.String,java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="11277777">0.011</td>
+              <td class="duration" data-value="11277777">0.015</td>
+              <td class="duration" data-value="203000000">0.203</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.BalanceEnq.the_bal_enq_api_call_got_success_with_status_code(java.lang.Integer)</td>
+              <td>18</td>
+              <td class="duration" data-value="333333">0.000</td>
+              <td class="duration" data-value="333333">0.003</td>
+              <td class="duration" data-value="6000000">0.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.BalanceEnq.user_calls_bal_enq_with_http_request(java.lang.String,java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="306055555">0.306</td>
+              <td class="duration" data-value="306055555">4.061</td>
+              <td class="duration" data-value="5509000000">5.509</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.Keyinjection.in_keyinjection_response_body_is(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="8000000">0.008</td>
+              <td class="duration" data-value="8000000">0.008</td>
+              <td class="duration" data-value="8000000">0.008</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.Keyinjection.keyinjection_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.Keyinjection.the_keyinjection_api_call_got_success_with_status_code(java.lang.Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="duration" data-value="5000000">0.005</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.Keyinjection.user_calls_keyinjection_with_http_request(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="344000000">0.344</td>
+              <td class="duration" data-value="344000000">0.344</td>
+              <td class="duration" data-value="344000000">0.344</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.OnineSale.check_if_online_sale_response_contains_rrn_chip_balance_total_balance_for_and_status_is(java.lang.String,java.lang.String)</td>
+              <td>20</td>
+              <td class="duration" data-value="4750000">0.004</td>
+              <td class="duration" data-value="4750000">0.030</td>
+              <td class="duration" data-value="95000000">0.095</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.OnineSale.in_online_sale_response_body_is(java.lang.String,java.lang.String)</td>
+              <td>20</td>
+              <td class="duration" data-value="9800000">0.009</td>
+              <td class="duration" data-value="9800000">0.028</td>
+              <td class="duration" data-value="196000000">0.196</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.OnineSale.online_sale_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>20</td>
+              <td class="duration" data-value="3550000">0.003</td>
+              <td class="duration" data-value="3550000">0.007</td>
+              <td class="duration" data-value="71000000">0.071</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.OnineSale.response_code_for_online_sale_is_for(java.lang.String,java.lang.String)</td>
+              <td>20</td>
+              <td class="duration" data-value="2000000">0.002</td>
+              <td class="duration" data-value="2000000">0.011</td>
+              <td class="duration" data-value="40000000">0.040</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.OnineSale.response_message_for_online_sale_is_for(java.lang.String,java.lang.String)</td>
+              <td>20</td>
+              <td class="duration" data-value="9600000">0.009</td>
+              <td class="duration" data-value="9600000">0.014</td>
+              <td class="duration" data-value="192000000">0.192</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.OnineSale.the_online_sale_api_call_got_success_with_status_code(java.lang.Integer)</td>
+              <td>20</td>
+              <td class="duration" data-value="150000">0.000</td>
+              <td class="duration" data-value="150000">0.001</td>
+              <td class="duration" data-value="3000000">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.OnineSale.user_calls_online_sale_with_http_request(java.lang.String,java.lang.String)</td>
+              <td>20</td>
+              <td class="duration" data-value="258850000">0.258</td>
+              <td class="duration" data-value="258850000">3.586</td>
+              <td class="duration" data-value="5177000000">5.177</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.ParameterDef.ParamDownload_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="3307692">0.003</td>
+              <td class="duration" data-value="3307692">0.005</td>
+              <td class="duration" data-value="43000000">0.043</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.ParameterDef.in_param_dowload_response_body_is(java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="11846153">0.011</td>
+              <td class="duration" data-value="11846153">0.024</td>
+              <td class="duration" data-value="154000000">0.154</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.ParameterDef.param_download_response_code_is_for(java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="2615384">0.002</td>
+              <td class="duration" data-value="2615384">0.015</td>
+              <td class="duration" data-value="34000000">0.034</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.ParameterDef.param_download_response_message_is_for(java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="10769230">0.010</td>
+              <td class="duration" data-value="10769230">0.018</td>
+              <td class="duration" data-value="140000000">0.140</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.ParameterDef.the_param_api_call_got_success_with_status_code(java.lang.Integer)</td>
+              <td>13</td>
+              <td class="duration" data-value="153846">0.000</td>
+              <td class="duration" data-value="153846">0.001</td>
+              <td class="duration" data-value="2000000">0.002</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.ParameterDef.user_calls_param_with_http_request(java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="154846153">0.154</td>
+              <td class="duration" data-value="154846153">1.181</td>
+              <td class="duration" data-value="2013000000">2.013</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.StepDefinations.in_response_body_is(java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="9307692">0.009</td>
+              <td class="duration" data-value="9307692">0.018</td>
+              <td class="duration" data-value="121000000">0.121</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.StepDefinations.logon_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="2615384">0.002</td>
+              <td class="duration" data-value="2615384">0.007</td>
+              <td class="duration" data-value="34000000">0.034</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.StepDefinations.response_code_is_for(java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="2615384">0.002</td>
+              <td class="duration" data-value="2615384">0.017</td>
+              <td class="duration" data-value="34000000">0.034</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.StepDefinations.response_message_is_for(java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="9153846">0.009</td>
+              <td class="duration" data-value="9153846">0.013</td>
+              <td class="duration" data-value="119000000">0.119</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.StepDefinations.the_api_call_got_success_with_status_code(java.lang.Integer)</td>
+              <td>13</td>
+              <td class="duration" data-value="230769">0.000</td>
+              <td class="duration" data-value="230769">0.001</td>
+              <td class="duration" data-value="3000000">0.003</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.StepDefinations.user_calls_with_http_request(java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="108769230">0.108</td>
+              <td class="duration" data-value="108769230">0.564</td>
+              <td class="duration" data-value="1414000000">1.414</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.TopUp.in_topup_response_body_is(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.TopUp.the_topup_api_call_got_success_with_status_code(java.lang.Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.TopUp.topup_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.TopUp.user_calls_topup_with_http_request(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="3535000000">3.535</td>
+              <td class="duration" data-value="3535000000">3.535</td>
+              <td class="duration" data-value="3535000000">3.535</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.operator.in_operator_key_response_body_is(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="duration" data-value="11000000">0.011</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.operator.operator_key_with(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="9000000">0.009</td>
+              <td class="duration" data-value="9000000">0.009</td>
+              <td class="duration" data-value="9000000">0.009</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.operator.the_operator_key_api_call_got_success_with_status_code(java.lang.Integer)</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinations.operator.user_calls_operator_key_with_http_request(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="861000000">0.861</td>
+              <td class="duration" data-value="861000000">0.861</td>
+              <td class="duration" data-value="861000000">0.861</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>38</td>
+            <td>434</td>
+            <td class="duration">0.053</td>
+            <td class="duration">5.509</td>
+            <td class="duration">23.015</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

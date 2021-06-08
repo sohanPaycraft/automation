@@ -1,0 +1,69 @@
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/top-up
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fundingSource": "02",
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "rrn": "null",
+    "txnSubTypeDesc": "",
+    "txnSubTypeId": "",
+    "uniqueTransactionRefNo": "1622042794179",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000488009A032105269C01009F02060000000000019F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000100000000000000000000000000000000009F1A0203569F1E0830303030303132339F2608414be97c204eec8d9F2701809F3303e0e9c89F34034203009F3501229F360200209F37048a8c7591DF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "0014110100322700000a"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000009"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "f402cdd4b16f9d98",
+    "track2Data": "20e4d1af94aa7c57170dfe157bde9cc4bc9d9e754c90f65b",
+    "amount": "100",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205645",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "280000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:23:10 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "payload": {
+        "approvalCode": "205645",
+        "chip-balance": "000000010100",
+        "total-balance": "000000010100",
+        "field55Data": "9110B951714480804000FFFE000000000100",
+        "offlineBalSign": "C",
+        "rrn": "115909200032",
+        "responseCode": "00",
+        "onlineBalSign": "C"
+    },
+    "timestamp": "2021-06-08T04:23:06Z"
+}

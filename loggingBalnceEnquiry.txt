@@ -1,0 +1,1050 @@
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:53 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "payload": {
+        "approvalCode": "205247",
+        "chip-balance": "000000000000",
+        "total-balance": "000000000000",
+        "field55Data": "91102ECBFD61808000000000000000000000",
+        "offlineBalSign": "C",
+        "rrn": "115909200032",
+        "responseCode": "00",
+        "onlineBalSign": "C"
+    },
+    "timestamp": "2021-06-08T04:22:50Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:53 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "APP VERSION NUMBER IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:54Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:53 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "BATCH NUMBER IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:54Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "INVOICE NUMBER IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:54Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "MERCHANT IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:54Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "MERCHANT DETAILS IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:54Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "NII IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:54Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "POS ENTRY MODE IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "POS SERIAL NUMBER IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "PROCESSING CODE IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "REQUEST ID IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "STAN IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": ""
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "TERMINAL ID IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "TRACK2 DATA IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "AMOUNT IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:54 GMT
+Connection: close
+
+{
+    "status": "BAD_REQUEST",
+    "errors": {
+        "message": "CHIP DATA IS NULL OR EMPTY"
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "1231000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "51000006"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:56 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "payload": {
+        "approvalCode": null,
+        "chip-balance": null,
+        "total-balance": null,
+        "field55Data": null,
+        "offlineBalSign": null,
+        "rrn": null,
+        "responseCode": "03",
+        "onlineBalSign": null
+    },
+    "timestamp": "2021-06-08T04:22:55Z"
+}
+Request method:	POST
+Request URI:	http://20.198.90.49:9875/bal-enq
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "posCondCode": "00",
+    "posEntryMode": "0051",
+    "uniqueTransactionRefNo": "1622042553934",
+    "chipData": "5F2A0203565F340101820219008407a00000052410108E0E000000000000000042031f031e03950500000408009A032105269C01319F02060000000000009F03060000000000009F0607a00000052410109F090200029F10200fb501a8000000000000000000000000000000000000000000000000000000009F1A0203569F1E0830303030303132339F260856e99ba40c48bc8a9F2701809F3303e0e9c89F34034203009F3501229F3602001a9F3704e4b8b95dDF15029180",
+    "encFieldInfoList": [
+        {
+            "fieldNumber": "35",
+            "ksn": "00141101003227000008"
+        },
+        {
+            "fieldNumber": "52",
+            "ksn": "00141101003227000007"
+        }
+    ],
+    "nii": "00",
+    "pinBlock": "92ed26d59aed2c87",
+    "track2Data": "ece74646e099c54adbb50e3c3f9565fb5d5f18d45d90218f",
+    "amount": "00",
+    "appVersionNumber": "0021",
+    "batchNumber": "000001",
+    "invoiceNumber": "200032",
+    "localDate": "0526",
+    "localTime": "205247",
+    "merchantID": "120000000000001",
+    "merchantNameLoc": "Pune Metro Test 1      KOREGAON PARKMHIN",
+    "posSerialNumber": "30303030313730343931313031303033323237",
+    "processingCode": "310000",
+    "reqId": "200032",
+    "stan": "200032",
+    "terminalId": "510006"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 08 Jun 2021 04:22:56 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "payload": {
+        "approvalCode": null,
+        "chip-balance": null,
+        "total-balance": null,
+        "field55Data": null,
+        "offlineBalSign": null,
+        "rrn": null,
+        "responseCode": "03",
+        "onlineBalSign": null
+    },
+    "timestamp": "2021-06-08T04:22:56Z"
+}
